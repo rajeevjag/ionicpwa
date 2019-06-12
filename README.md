@@ -1,6 +1,6 @@
 # ionicpwa
 Progressive web application using Ionic
-Build Prod 
+# Build Prod 
 ionic build -prod
-Deploy Firebase
+# Deploy Firebase
 firebase deploy
