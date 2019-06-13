@@ -1,5 +1,8 @@
 {
   "index": "/index.html",
+  "appData": {
+    "updateMessage": "Added a whiz-bang new feature you're gonna love!"
+  },
   "assetGroups": [
     {
       "name": "app",
@@ -9,12 +12,13 @@
           "/favicon.ico",
           "/index.html",
           "/*.css",
-          "/*.js"
+          "/*.js",
+          "/svg/**"
         ]
       }
     }, {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "resources": {
         "files": [
